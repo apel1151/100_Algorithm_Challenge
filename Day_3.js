@@ -2,7 +2,6 @@
 
 /*****************Answer*********************/
 
-
 const addBorder = (matrix) => {
     const borderLength = matrix[0].length + 2; // Length of the top and bottom border
     const borderRow = '*'.repeat(borderLength); // Create a border row of asterisks
